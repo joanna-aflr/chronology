@@ -6,8 +6,8 @@ import os
 from pathlib import Path
 from loguru import logger
 from dotenv import load_dotenv
-env_path = Path('.') / '.env'
-load_dotenv(dotenv_path=env_path)
+#env_path = Path('.') / '.env'
+#load_dotenv(dotenv_path=env_path)
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
